@@ -37,10 +37,10 @@ Your challenge for this module: write tests for both the `App.js` component and 
   - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 
   Task 1B "Dependencies":
-  - [ ] Push commits: git push origin `<firstName-lastName>`.
-  - [ ] Add your team lead as collaborator on Github.
-  - [ ] Download project dependencies by running `npm install`
-  - [ ] Start up the app using `npm start`
+  - [x] Push commits: git push origin `<firstName-lastName>`.
+  - [x] Add your team lead as collaborator on Github.
+  - [x] Download project dependencies by running `npm install`
+  - [x] Start up the app using `npm start`
 
 ## Task 2: Moving the async call**
 
