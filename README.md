@@ -54,7 +54,7 @@ Let's move the async function into an `/api` directory so we can easily mock tha
 
 2. [x] You will need to `return` the `axios.get` call, _and_ the data inside your `.then()`. This is necessary because when you call `fetchShow` in your useEffect, you need to chain off the promise for a new `.then()`, then you need the data to be returned once the promise is resolved
 
-3. Inside your `.then()` in the `useEffect` hook, set your data again.
+3. [x] Inside your `.then()` in the `useEffect` hook, set your data again.
 
 - Note that you need `axios` in the new file
 
