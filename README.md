@@ -77,10 +77,11 @@ useEffect(() => {
 ```
 
 ## Task 3: Testing
-- [] Add additional information here for tasks/workflow
-- [] Render component
+- [x] Add additional information here for tasks/workflow
+- [x] Render component
 - [] Render component with props
-- [] Test for asynchronous rendering with:
+- [] Test asynchronous code by testing with mock
+- [] Test asynchronous code by testing with async and wait
   - 
 
 ### Stretch goals
