@@ -47,10 +47,10 @@ Your challenge for this module: write tests for both the `App.js` component and 
 The async call being inside the component makes it hard to test the asynchronous nature of the component. 
 Let's move the async function into an `/api` directory so we can easily mock that function and make the async tests easier.
 
-1. Create a directory called `/api` in the `src` directory
-  1. Create a file called `fetchShow.js`
-  1. Move `fetchShow` into that new file and export it (fetchShow is in the `useEffect` - pay attention to how this was setting state. You will still need to set state in this effect hook the exact same way...)
-  1. Import `fetchShow` into `App.js` so you can make your async call from your `useEffect` hook.
+1. [x] Create a directory called `/api` in the `src` directory
+  1. [x] Create a file called `fetchShow.js`
+  1. [x] Move `fetchShow` into that new file and export it (fetchShow is in the `useEffect` - pay attention to how this was setting state. You will still need to set state in this effect hook the exact same way...)
+  1. [x] Import `fetchShow` into `App.js` so you can make your async call from your `useEffect` hook.
 
 2. You will need to `return` the `axios.get` call, _and_ the data inside your `.then()`. This is necessary because when you call `fetchShow` in your useEffect, you need to chain off the promise for a new `.then()`, then you need the data to be returned once the promise is resolved
 
@@ -78,7 +78,10 @@ useEffect(() => {
 
 ## Task 3: Testing
 - [] Add additional information here for tasks/workflow
-- [] ...
+- [] Render component
+- [] Render component with props
+- [] Test for asynchronous rendering with:
+  - 
 
 ### Stretch goals
   - [] There is an utility function in this project that contains an isolated pure function. Look up how to do `unit tests` with Jest and test that function.
