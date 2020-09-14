@@ -14,6 +14,9 @@ As a developer, you will be asked to write tests for the feature you are buildin
 
 Get the project fired up and start using it as a user would. Try to go through the user sequences for this feature that you think users would go through. Once you have those in mind, you will have an idea of what to test in your application.
 
+### Initial commit
+- [x] Initial commit
+
 ### Project Set Up
 
 - [ ] Create a forked copy of this project.
