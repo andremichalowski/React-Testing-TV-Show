@@ -6,5 +6,3 @@ test( "Renders without errors", () => {
   render(<App />);
 });
 
-
-
