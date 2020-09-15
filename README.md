@@ -80,8 +80,8 @@ useEffect(() => {
 - [x] Add additional information here for tasks/workflow
 - [x] Render component
 - [x] Render component + re-render with props
-- [] Test asynchronous code by testing with mock
-- [] Test asynchronous code by testing with async and wait
+- [O] Test asynchronous code by testing with mock
+- [O] Test asynchronous code by testing with async and wait
   - 
 
 ### Stretch goals
@@ -89,8 +89,7 @@ useEffect(() => {
   - [] Look up the `TVMaze` API. Add a dropdown with the titles of some other popular shows. Add the user sequence of choosing a different show to fetch data for different shows.
   - [] Add React Router, and add the functionality to click an episode and navigate to an episode page.
 
-## Follow these steps for completing your project.
-  - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-  - [ ] Add your team lead as a reviewer on the pull-request
-  - [ ] Your team lead will count the project as complete by merging the branch back into master.
-  - [ ] Do your magic!
+## Task 4 - Follow these steps for completing your project.
+  - [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+  - [x] Add your team lead as a reviewer on the pull-request
+
