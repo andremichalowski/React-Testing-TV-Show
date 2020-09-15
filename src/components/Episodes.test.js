@@ -18,7 +18,7 @@ test("Renders with new props (Episodes list showslist of episodes when rendered 
   const propsRender = getAllByTestId(/episode/i);
   expect(propsRender).toHaveLength(5);
 
-  //1st Attempt
+//1st Attempt
 //   const { rerender } = render(<Episodes episodes={[]} />);
   
 //   rerender(<Episodes episodes={episodes}/>)
